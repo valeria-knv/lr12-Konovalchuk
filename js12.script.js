@@ -147,7 +147,7 @@ function Work(imgs){
         }
     });
     $("#left").on('click', function(){
-        if(count > 0){
+        if(count > 1){
             count--;
             check++;
             $("#count").html(count + " / 10");
