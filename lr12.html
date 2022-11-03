@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Twelfth Project Konovalchuk</title>
+        <link rel="stylesheet" href="style12.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+        <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <script src="js12.script.js"></script>
+        <div id="openModal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Diploma</h3>
+                        <a href="#close" title="Close" class="close">×</a>
+                    </div>
+                    <div class="modal-body">
+                        <p class="inline">Correct answers: <div style="color: green;" class="inline" id="correct1">0</div><br>Wrong answers: <div style="color: red;" class="inline" id="incorrect1">0</div><br><br><br>Your English level: <div class="inline" id="englevel"></div><br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="points">Correctly: <div id="correct">0</div>
+            <div class="container">
+                <img class="img" src="">
+                <div id="question"></div>
+            </div>
+            Wrong: <div id="incorrect">0</div>
+        </div>
+        <div class="arrow">
+            <img id="left" class="imgArrow" src=".\\arrowLeft.png">
+            <div data-bs-title="FFFF" id="count">1 / 10</div>
+            <img id="right" class="imgArrow" src=".\\arrowRight.png">
+        </div>
+        <input type="text" id="answer" placeholder="Enter the answer" required>
+        <div id="radio">  
+            <div class="radio-toolbar"> 
+                <input type="radio" id="easy" name="difficulty" value="easy" checked="checked">
+                <label for="easy" class="font-effect-shadow-multiple">Easy</label>
+                <input type="radio" id="normal" name="difficulty" value="normal">
+                <label for="normal" class="font-effect-shadow-multiple">Normal</label>
+                <input type="radio" id="hard" name="difficulty" value="hard">
+                <label for="hard" class="font-effect-shadow-multiple">Hard</label>
+            </div> 
+        </div>
+    </body>
+</html>
