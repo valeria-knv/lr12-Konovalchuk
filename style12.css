@@ -192,7 +192,7 @@ input:active {
     color: black;
     border: 2px solid rgba(157, 0, 255, 0.515);
     border-radius: 8px;
-    font-size: 2em;
+    font-size: 4vmin;
     text-align: center;
     background-color: #dcdcdc;
     opacity: 0.8;
