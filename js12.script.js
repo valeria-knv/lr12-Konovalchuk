@@ -142,7 +142,7 @@ function Work(imgs){
             $("body").append($('<button>', {'class':'button'} ));
             $(".button").text("Restart");
             $(".button").on('click', function(){
-                window.location.href=".\\lr12.html";
+                window.location.href=".\\index.html";
             });
         }
     });
